@@ -1,0 +1,9 @@
+for i in range (0,6):
+    dfff[i] = pd.DataFrame(k_channel[i],columns=['i'])
+from matplotlib import pyplot
+dfff.plot(subplots=True, legend=False)
+plt.savefig("sample.jpg", dpi=500)
+pyplot.show()
+
+
+
